@@ -13,9 +13,9 @@
 # check to see if domain name argument entered...
 if test $# -ne 0;
 then    sudo certbot certonly --manual --preferred-challenges=dns \
-            --manual-auth-hook "php /home/dblanch/projects/letsencrypt/update-certs.php -a" \
-            --manual-cleanup-hook "php /home/dblanch/projects/letsencrypt/update-certs.php -r" \
-            -m blanchdon1@comcast.net \
+            --manual-auth-hook "php /path/to/update-certs.php -a" \
+            --manual-cleanup-hook "php /path/to/update-certs.php -r" \
+            -m youremail@address.com \
             --agree-tos \
             --manual-public-ip-logging-ok \
             -d $1
