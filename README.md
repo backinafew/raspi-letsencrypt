@@ -16,6 +16,7 @@ Process:
 - cd to project folder.
 - Install required PHP dependencies: composer.phar install
 - Edit config-helper.php with your information: nano config-helper.php
+- Edit run-certbot.sh with your information: nano run-certbot.sh
 - Run to generate config.json file and view: php config-helper.php 
 
 -- Run --
