@@ -1,7 +1,7 @@
 # raspi-letsencrypt
-Utilities to request SSL certificates from Letsencrypt using Certbot, Google's API client, and PHP on the Raspberry Pi.
+Utility to request SSL certificates from Letsencrypt using Certbot, Google's API client, and PHP on the Raspberry Pi.
 
-This utlity is useful when your Raspberry Pi uses SSL certificates from Letsencrypt and your DNS is hosted on Google's 
+This utility is useful when your Raspberry Pi uses SSL certificates from Letsencrypt and your DNS is hosted on Google's 
 Cloud DNS service. No need to change firewall settings to allow traffic during HTTP verification step!  The DNS verification steps 
 are handled by Googles's api client.  After obtaining your new certificates, the renewal process will use these 
 same settings so a recurring cron job can keep the certificates current.
