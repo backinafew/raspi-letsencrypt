@@ -5,9 +5,9 @@
 #
 # $Date: 2018-05-08 15:33:40 -0400 (Tue, 08 May 2018) $
 # $Revision: 41 $
-# $Author: dblanch $
-# $HeadURL: https://svn.backinafew.com/svn/letsencrypt/run-certbot.sh $
-# $Id: run-certbot.sh 41 2018-05-08 19:33:40Z dblanch $
+# $Author $
+# $HeadURL: https://svn/letsencrypt/run-certbot.sh $
+# $Id: run-certbot.sh 41 2018-05-08 19:33:40Z $
 # ###############################################
 
 # check to see if domain name argument entered...
