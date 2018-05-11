@@ -9,9 +9,9 @@
  *
  * $Date: 2018-05-10 16:10:04 -0400 (Thu, 10 May 2018) $
  * $Revision: 42 $
- * $Author: dblanch $
- * $HeadURL: https://svn.backinafew.com/svn/letsencrypt/update-certs.php $
- * $Id: update-certs.php 42 2018-05-10 20:10:04Z dblanch $
+ * $Author$
+ * $HeadURL: https://svn/letsencrypt/update-certs.php $
+ * $Id: update-certs.php 42 2018-05-10 200:04Z $
  * **/ 
 
 require_once('vendor/autoload.php');
