@@ -12,6 +12,7 @@ Process:
 - Install Composer: sudo apt-get install composer
 - Install Certbot: sudo apt-get install certbot
 - Download / extract this project.
+- Enable Google Cloud API in your Google Cloud acct.
 - Download Google Cloud credentials with permission to edit your domain DNS info.  It will be a *.json file.
 - cd to project folder.
 - Install required PHP dependencies: composer.phar install
