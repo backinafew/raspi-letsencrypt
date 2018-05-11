@@ -24,7 +24,7 @@ $delay = 0;
 
 //if debugging, export certbot env variables...
 if ($config->runlevel == 'DEBUG') {
-    putenv('CERTBOT_DOMAIN=tmp.backinafew.com');
+    putenv('CERTBOT_DOMAIN=tmp.domain.com');
     putenv('CERTBOT_VALIDATION=CERTBOT_VALIDATION');
     putenv('CERTBOT_AUTH_OUTPUT=CERTBOT_AUTH_OUTPUT');
 } // end if ($config->runlevel == 'DEBUG')
