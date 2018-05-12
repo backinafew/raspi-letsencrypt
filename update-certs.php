@@ -29,7 +29,7 @@ if ($config->runlevel == 'DEBUG') {
     putenv('CERTBOT_AUTH_OUTPUT=CERTBOT_AUTH_OUTPUT');
 } // end if ($config->runlevel == 'DEBUG')
 
-// handle command line call options...            "-a" add record "-d" delete record "-h" help -d domain
+// handle command line call options...            "-a" add record "-r" remove record "-h" help 
 $arguments = getopt("ar:h");
 // set dns action flag...
 $dnsAction = '';
