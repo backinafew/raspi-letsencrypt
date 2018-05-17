@@ -30,7 +30,7 @@ if ($config->runlevel == 'DEBUG') {
 } // end if ($config->runlevel == 'DEBUG')
 
 // handle command line call options...            "-a" add record "-r" remove record "-h" help 
-$arguments = getopt("ar:h");
+$arguments = getopt("arh");
 // set dns action flag...
 $dnsAction = '';
 // check if options given...
